@@ -1,0 +1,174 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*--------------------------------------------------- html tags ------------------------------------------------------------------*/
+P {
+  color: #8f8f8f;
+}
+
+/*---------------------------------------------------- id tags --------------------------------------------------------------------*/
+
+#title {
+}
+#features {
+  position: relative;
+  padding-top: 8rem;
+}
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #ff4c68;
+}
+
+/*---------------------------------------------------- classes --------------------------------------------------------------------*/
+
+/*text and titles*/
+
+.lg-title {
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.md-title {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.sm-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.copyright {
+  margin: 2% 15% 5%;
+}
+
+.disclaimer {
+  font-size: 0.5rem;
+}
+
+.caveat {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #ff4c68;
+}
+
+/*containers*/
+
+.coloured-container {
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+.coloured-container-centre {
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.white-container {
+  padding: 3% 15% 7%;
+  background-color: #fff;
+  text-align: center;
+}
+
+/*navbar*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+/*buttons*/
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*carousel*/
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.carousel-arrows {
+  padding: 25% 0;
+}
+
+/*images*/
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+.feature-img {
+  color: #ff4c68;
+  padding-bottom: 5%;
+}
+.feature-img:hover {
+  color: #d74b8d;
+}
+.lg-img-rnd {
+  width: 10rem;
+  border-radius: 100%;
+  margin: 20px;
+}
+.md-img-rnd {
+  width: 8rem;
+  border-radius: 100%;
+  margin: 20px;
+}
+.sm-img-rnd {
+  width: 5rem;
+  border-radius: 100%;
+  margin: 20px;
+}
+.lg-img {
+  width: 10rem;
+  margin: 20px;
+}
+.md-img {
+  width: 8rem;
+  margin: 20px;
+}
+.sm-img {
+  width: 5rem;
+  margin: 20px;
+}
+
+/*pricing section*/
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*-------------------------------------------------- media quiries ----------------------------------------------------------------*/
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
