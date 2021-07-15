@@ -163,9 +163,12 @@ P {
 /*-------------------------------------------------- media quiries ----------------------------------------------------------------*/
 
 @media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
+  .coloured-container {
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
   .title-img {
     position: static;
     width: 60%;
